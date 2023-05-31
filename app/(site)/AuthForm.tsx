@@ -104,7 +104,7 @@ const AuthForm = () => {
           )}
           <Input
             id="email"
-            label="Email address"
+            label="이메일"
             type="email"
             register={register}
             errors={errors}
@@ -112,7 +112,7 @@ const AuthForm = () => {
           />
           <Input
             id="password"
-            label="Password"
+            label="비밀번호"
             type="password"
             register={register}
             errors={errors}
@@ -120,7 +120,7 @@ const AuthForm = () => {
           />
           <div>
             <Button disabled={isLoading} fullWidth type="submit">
-              {variant === "LOGIN" ? "Sign in" : "Register"}
+              {variant === "LOGIN" ? "로그인" : "회원가입"}
             </Button>
           </div>
         </form>
@@ -159,11 +159,11 @@ const AuthForm = () => {
         <div className="flex gap-2 justify-center text-sm mt-6 px-2 text-gray-500">
           <div>
             {variant === "LOGIN"
-              ? "New to Messenger?"
+              ? "계정이 없으면?"
               : "Already have an account?"}
           </div>
           <div onClick={toggleVariant} className="underline cursor-pointer">
-            {variant === "LOGIN" ? "Create an account" : "Login"}
+            {variant === "LOGIN" ? "회원가입하기" : "Login"}
           </div>
         </div>
       </div>
