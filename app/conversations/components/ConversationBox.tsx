@@ -23,6 +23,8 @@ const ConversationBox: React.FC<ConversationBoxProps> = ({
   const otherUser = useOtherUser(data);
   const session = useSession();
   const router = useRouter();
+  console.log(data, "data");
+  console.log(otherUser, "otheruser");
 
   const handleClick = useCallback(() => {
     router.push(`/conversations/${data.id}`);
