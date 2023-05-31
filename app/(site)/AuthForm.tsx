@@ -96,7 +96,7 @@ const AuthForm = () => {
           {variant === "REGISTER" && (
             <Input
               id="name"
-              label="Name"
+              label="이름"
               register={register}
               errors={errors}
               disabled={isLoading}
@@ -158,12 +158,10 @@ const AuthForm = () => {
         </div>
         <div className="flex gap-2 justify-center text-sm mt-6 px-2 text-gray-500">
           <div>
-            {variant === "LOGIN"
-              ? "계정이 없으면?"
-              : "Already have an account?"}
+            {variant === "LOGIN" ? "계정이 없으면?" : "이미 계정이 있으신가요?"}
           </div>
           <div onClick={toggleVariant} className="underline cursor-pointer">
-            {variant === "LOGIN" ? "회원가입하기" : "Login"}
+            {variant === "LOGIN" ? "회원가입하기" : "로그인"}
           </div>
         </div>
       </div>
