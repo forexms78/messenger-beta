@@ -31,7 +31,7 @@ export default function Home() {
         tracking-tight
         text-gary-900"
         >
-          로그인 하세요
+          극악무도하고 잔인한 몽쉘톡🐶
         </h2>
       </div>
       <AuthForm />
