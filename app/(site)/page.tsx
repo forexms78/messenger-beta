@@ -34,6 +34,7 @@ export default function Home() {
           Passion Talk!
         </h2>
       </div>
+
       <AuthForm />
     </div>
   );

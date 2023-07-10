@@ -30,6 +30,8 @@ const Header: React.FC<HeaderProps> = ({ conversation }) => {
     return isActive ? "Active" : "Offline";
   }, [conversation, isActive]);
 
+  console.log(isActive, "isActive2");
+
   return (
     <>
       <ProfileDrawer

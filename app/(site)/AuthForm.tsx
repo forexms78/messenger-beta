@@ -165,6 +165,19 @@ const AuthForm = () => {
           </div>
         </div>
       </div>
+      <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+        <div className="bg-white px-4 py-8 shadow sm:rounded-lg sm:px-10">
+          <div>
+            💻 박병호 포트폴리오 real-time messenger 사이트
+            <br />
+            (meta messenger 클론 디테일 수정)
+          </div>
+          <div className="mt-6">
+            node v20.1.0 | react v18.2.0 | next v13.4.2 | pusher-js v5.1.3 |
+            zustand v4.3.8 | prisma v4.14.0
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
