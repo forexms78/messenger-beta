@@ -34,3 +34,6 @@
     npm install zustand
 
     82714
+
+
+몽고 DB 연결계정 qudgh9709 구글
